@@ -22,6 +22,7 @@
 		D84AE59713E8F38D0082C21C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D84AE59513E8F38D0082C21C /* InfoPlist.strings */; };
 		D84AE59A13E8F38D0082C21C /* ImageViewerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D84AE59913E8F38D0082C21C /* ImageViewerTests.h */; };
 		D84AE59C13E8F38D0082C21C /* ImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84AE59B13E8F38D0082C21C /* ImageViewerTests.m */; };
+		D84AE5A713E8F5710082C21C /* ImageViewerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D84AE5A613E8F5710082C21C /* ImageViewerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +40,24 @@
 		D84AE56C13E8F38C0082C21C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D84AE56E13E8F38C0082C21C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D84AE57013E8F38C0082C21C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D84AE57413E8F38C0082C21C /* ImageViewer-Info.plist */ = {isa = PBXFileReference; path = "ImageViewer-Info.plist"; sourceTree = "<group>"; };
+		D84AE57413E8F38C0082C21C /* ImageViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageViewer-Info.plist"; sourceTree = "<group>"; };
 		D84AE57613E8F38C0082C21C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D84AE57813E8F38C0082C21C /* ImageViewer-Prefix.pch */ = {isa = PBXFileReference; path = "ImageViewer-Prefix.pch"; sourceTree = "<group>"; };
+		D84AE57813E8F38C0082C21C /* ImageViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageViewer-Prefix.pch"; sourceTree = "<group>"; };
 		D84AE57913E8F38C0082C21C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D84AE57B13E8F38C0082C21C /* ImageViewerAppDelegate.h */ = {isa = PBXFileReference; path = ImageViewerAppDelegate.h; sourceTree = "<group>"; };
+		D84AE57B13E8F38C0082C21C /* ImageViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewerAppDelegate.h; sourceTree = "<group>"; };
 		D84AE57C13E8F38C0082C21C /* ImageViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewerAppDelegate.m; sourceTree = "<group>"; };
 		D84AE57F13E8F38D0082C21C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		D84AE58113E8F38D0082C21C /* ImageViewerViewController.h */ = {isa = PBXFileReference; path = ImageViewerViewController.h; sourceTree = "<group>"; };
+		D84AE58113E8F38D0082C21C /* ImageViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewerViewController.h; sourceTree = "<group>"; };
 		D84AE58213E8F38D0082C21C /* ImageViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewerViewController.m; sourceTree = "<group>"; };
 		D84AE58513E8F38D0082C21C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageViewerViewController.xib; sourceTree = "<group>"; };
 		D84AE58C13E8F38D0082C21C /* ImageViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D84AE59413E8F38D0082C21C /* ImageViewerTests-Info.plist */ = {isa = PBXFileReference; path = "ImageViewerTests-Info.plist"; sourceTree = "<group>"; };
+		D84AE59413E8F38D0082C21C /* ImageViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageViewerTests-Info.plist"; sourceTree = "<group>"; };
 		D84AE59613E8F38D0082C21C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D84AE59813E8F38D0082C21C /* ImageViewerTests-Prefix.pch */ = {isa = PBXFileReference; path = "ImageViewerTests-Prefix.pch"; sourceTree = "<group>"; };
+		D84AE59813E8F38D0082C21C /* ImageViewerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageViewerTests-Prefix.pch"; sourceTree = "<group>"; };
 		D84AE59913E8F38D0082C21C /* ImageViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewerTests.h; sourceTree = "<group>"; };
 		D84AE59B13E8F38D0082C21C /* ImageViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewerTests.m; sourceTree = "<group>"; };
+		D84AE5A513E8F5710082C21C /* ImageViewerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewerView.h; sourceTree = "<group>"; };
+		D84AE5A613E8F5710082C21C /* ImageViewerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		D84AE55D13E8F38C0082C21C = {
 			isa = PBXGroup;
 			children = (
+				D84AE5A513E8F5710082C21C /* ImageViewerView.h */,
+				D84AE5A613E8F5710082C21C /* ImageViewerView.m */,
 				D84AE57213E8F38C0082C21C /* ImageViewer */,
 				D84AE59213E8F38D0082C21C /* ImageViewerTests */,
 				D84AE56B13E8F38C0082C21C /* Frameworks */,
@@ -263,6 +268,7 @@
 				D84AE57A13E8F38C0082C21C /* main.m in Sources */,
 				D84AE57D13E8F38C0082C21C /* ImageViewerAppDelegate.m in Sources */,
 				D84AE58313E8F38D0082C21C /* ImageViewerViewController.m in Sources */,
+				D84AE5A713E8F5710082C21C /* ImageViewerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
