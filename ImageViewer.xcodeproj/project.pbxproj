@@ -23,6 +23,7 @@
 		D84AE59A13E8F38D0082C21C /* ImageViewerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D84AE59913E8F38D0082C21C /* ImageViewerTests.h */; };
 		D84AE59C13E8F38D0082C21C /* ImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84AE59B13E8F38D0082C21C /* ImageViewerTests.m */; };
 		D84AE5A713E8F5710082C21C /* ImageViewerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D84AE5A613E8F5710082C21C /* ImageViewerView.m */; };
+		D84AE5AD13E92BDD0082C21C /* SampleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D84AE5AC13E92BDD0082C21C /* SampleImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		D84AE59B13E8F38D0082C21C /* ImageViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewerTests.m; sourceTree = "<group>"; };
 		D84AE5A513E8F5710082C21C /* ImageViewerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewerView.h; sourceTree = "<group>"; };
 		D84AE5A613E8F5710082C21C /* ImageViewerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewerView.m; sourceTree = "<group>"; };
+		D84AE5AC13E92BDD0082C21C /* SampleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SampleImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		D84AE57313E8F38C0082C21C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D84AE5AC13E92BDD0082C21C /* SampleImage.jpg */,
 				D84AE57413E8F38C0082C21C /* ImageViewer-Info.plist */,
 				D84AE57513E8F38C0082C21C /* InfoPlist.strings */,
 				D84AE57813E8F38C0082C21C /* ImageViewer-Prefix.pch */,
@@ -230,6 +233,7 @@
 				D84AE57713E8F38C0082C21C /* InfoPlist.strings in Resources */,
 				D84AE58013E8F38D0082C21C /* MainWindow.xib in Resources */,
 				D84AE58613E8F38D0082C21C /* ImageViewerViewController.xib in Resources */,
+				D84AE5AD13E92BDD0082C21C /* SampleImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
