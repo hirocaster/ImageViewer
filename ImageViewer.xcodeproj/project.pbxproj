@@ -24,6 +24,7 @@
 		D84AE59C13E8F38D0082C21C /* ImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84AE59B13E8F38D0082C21C /* ImageViewerTests.m */; };
 		D84AE5A713E8F5710082C21C /* ImageViewerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D84AE5A613E8F5710082C21C /* ImageViewerView.m */; };
 		D84AE5AD13E92BDD0082C21C /* SampleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D84AE5AC13E92BDD0082C21C /* SampleImage.jpg */; };
+		D84AE5B013E93A770082C21C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D84AE5B213E93A770082C21C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		D84AE5A513E8F5710082C21C /* ImageViewerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewerView.h; sourceTree = "<group>"; };
 		D84AE5A613E8F5710082C21C /* ImageViewerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewerView.m; sourceTree = "<group>"; };
 		D84AE5AC13E92BDD0082C21C /* SampleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SampleImage.jpg; sourceTree = "<group>"; };
+		D84AE5B113E93A770082C21C /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D84AE5B313E93A7D0082C21C /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,7 @@
 				D84AE57513E8F38C0082C21C /* InfoPlist.strings */,
 				D84AE57813E8F38C0082C21C /* ImageViewer-Prefix.pch */,
 				D84AE57913E8F38C0082C21C /* main.m */,
+				D84AE5B213E93A770082C21C /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = D84AE55D13E8F38C0082C21C;
 			productRefGroup = D84AE56913E8F38C0082C21C /* Products */;
@@ -234,6 +239,7 @@
 				D84AE58013E8F38D0082C21C /* MainWindow.xib in Resources */,
 				D84AE58613E8F38D0082C21C /* ImageViewerViewController.xib in Resources */,
 				D84AE5AD13E92BDD0082C21C /* SampleImage.jpg in Resources */,
+				D84AE5B013E93A770082C21C /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +331,15 @@
 				D84AE59613E8F38D0082C21C /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D84AE5B213E93A770082C21C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84AE5B113E93A770082C21C /* en */,
+				D84AE5B313E93A7D0082C21C /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
