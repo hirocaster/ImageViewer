@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ImageViewerTests' target in the 'ImageViewerTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
