@@ -48,6 +48,12 @@
     [super dealloc];
 }
 
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    [self setNeedsDisplay];
+}
+
 - (void)drawRect:(CGRect)rect
 {
     UIImage *theImage = [self image];
